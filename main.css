@@ -56,15 +56,15 @@ a {
 }
 
 img {
-  display: block;
+  display: flex;
   margin-left: auto;
-  margin-right: 1%;
+  margin-right: 0%;
   height: auto;  
   width: auto;  
   background-color: rgb(255, 255, 255);
+  overflow:hidden;
   
   }
-
 
 a:visited {
   color: violet;
@@ -165,7 +165,7 @@ ul {
   background-color: #f5b32f ;
   color: #274E9B;
   padding: 13px;
-  font-size: 20px;
+  font-size: 25px;
   border-style: groove;
   cursor: pointer;
 }
