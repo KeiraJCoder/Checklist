@@ -57,13 +57,13 @@ a {
 
 img {
   display: flex;
+  margin-top: -3%;
   margin-left: auto;
-  margin-right: 0%;
+  margin-right: 3.5%;
   height: auto;  
   width: auto;  
   background-color: rgb(255, 255, 255);
   overflow:hidden;
-  
   }
 
 a:visited {
@@ -101,6 +101,7 @@ a:focus {
     
 .fullscreen-bg {
   position:fixed;
+  display:cover;
   background-color: rgb(39, 78, 155);
   opacity:20%;
   top: 0;
@@ -165,6 +166,7 @@ ul {
   background-color: #f5b32f ;
   color: #274E9B;
   padding: 13px;
+  margin-left:70%;
   font-size: 25px;
   border-style: groove;
   cursor: pointer;
