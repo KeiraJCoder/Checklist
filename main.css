@@ -165,8 +165,9 @@ ul {
 .dropbtn {
   background-color: #f5b32f ;
   color: #274E9B;
-  padding: 13px;
-  margin-left:70%;
+  padding: 10px;
+  border-radius: 15px 15px;
+  margin-left:70px;
   font-size: 25px;
   border-style: groove;
   cursor: pointer;
