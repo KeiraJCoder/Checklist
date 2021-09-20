@@ -67,8 +67,12 @@ a {
 #overlay { position: absolute; left: 0px; top: 115%; height: 100%; width: 100%;
   z-index: 9998; }
 
-#overlay2 { position: absolute; left: 0px; top: 68%; height: 100%; width: 100%;
+#overlay2 { position: absolute; left: 0px; top: 70%; height: 100%; width: 100%;
     z-index: 9998; }
+
+#overlay3 { position: absolute; left: 0px; top: 150%; height: 100%; width: 100%;
+    z-index: 9998; }
+  
 
 img {
   display: flex;
