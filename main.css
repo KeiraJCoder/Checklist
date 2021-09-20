@@ -58,8 +58,17 @@ p {
 a {
   display: block;
   text-align: center;
-  font-size: 5px;
+  font-size: 40px;
+  color: white;
+  z-index: 9;
+  font-family: "GilroyExtraBold", serif;
 }
+
+#overlay { position: absolute; left: 0px; top: 115%; height: 100%; width: 100%;
+  z-index: 9998; }
+
+#overlay2 { position: absolute; left: 0px; top: 68%; height: 100%; width: 100%;
+    z-index: 9998; }
 
 img {
   display: flex;
@@ -75,6 +84,10 @@ img {
 
 a:focus {
   color: #f5b32f;
+}
+
+a:hover {
+  color:goldenrod;
 }
 
 .nav {
