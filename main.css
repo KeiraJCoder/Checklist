@@ -65,16 +65,16 @@ a {
   font-family: "GilroyExtraBold", serif;
 }
 
-#overlay { position: absolute; left: 0px; top: 115%; height: 60%; width: 100%;
+#overlay { position: absolute; left: 0px; top: 124%; height: 60%; width: 100%;
   z-index: 9998; overflow: hidden;}
 
-#overlay2 { position: absolute; left: 0px; top: 70%; height: 10%; width: 100%;
+#overlay2 { position: absolute; left: 0px; top: 75%; height: 10%; width: 100%;
     z-index: 9998;  overflow: hidden;}
 
-#overlay3 { position: absolute; left: 0px; top: 150%; height: 10%; width: 100%;
+#overlay3 { position: absolute; left: 0px; top: 155%; height: 10%; width: 100%;
     z-index: 9998; overflow:hidden;}
 
-#overlay4 { position: absolute; left: 0px; top: 400%; height: 10%; width: 100%;
+#overlay4 { position: absolute; left: 0px; top: 410%; height: 10%; width: 100%;
       z-index: 9998; overflow: hidden;}
   
 
