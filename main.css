@@ -16,6 +16,7 @@ p {
 }
 
 body {
+  padding-top:3%;
   background-position: fixed;
   background-repeat: no-repeat;
   background-color: rgb(39, 78, 155);
@@ -64,19 +65,22 @@ a {
   font-family: "GilroyExtraBold", serif;
 }
 
-#overlay { position: absolute; left: 0px; top: 115%; height: 100%; width: 100%;
-  z-index: 9998; }
+#overlay { position: absolute; left: 0px; top: 115%; height: 60%; width: 100%;
+  z-index: 9998; overflow: hidden;}
 
-#overlay2 { position: absolute; left: 0px; top: 70%; height: 100%; width: 100%;
-    z-index: 9998; }
+#overlay2 { position: absolute; left: 0px; top: 70%; height: 10%; width: 100%;
+    z-index: 9998;  overflow: hidden;}
 
-#overlay3 { position: absolute; left: 0px; top: 150%; height: 100%; width: 100%;
-    z-index: 9998; }
+#overlay3 { position: absolute; left: 0px; top: 150%; height: 10%; width: 100%;
+    z-index: 9998; overflow:hidden;}
+
+#overlay4 { position: absolute; left: 0px; top: 400%; height: 10%; width: 100%;
+      z-index: 9998; overflow: hidden;}
   
 
 img {
   display: flex;
-  margin-top: -4%;
+  margin-top: 0%;
   margin-left: auto;
   margin-right: 3.5%;
   height: auto;
@@ -95,7 +99,7 @@ a:hover {
 }
 
 .nav {
-  position: sticky;
+  position: fixed;
   z-index: 9999;
   display: table-cell;
 }
@@ -105,6 +109,7 @@ a:hover {
   display: block;
   color: #f5b32f;
   text-align: center;
+  padding-top: 5%;
   padding: 15px 20px;
   text-decoration: black;
   font-size: 30px;
@@ -237,7 +242,7 @@ ul {
   padding: 10px;
   border-radius: 15px 15px;
   margin-left: 30px;
-  margin-top: 35%;
+  margin-top: 40%;
   font-size: 25px;
   border-style: groove;
   cursor: pointer;
